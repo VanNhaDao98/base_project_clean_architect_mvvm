@@ -1,0 +1,1 @@
+# base_project_clean_architect_mvvm
