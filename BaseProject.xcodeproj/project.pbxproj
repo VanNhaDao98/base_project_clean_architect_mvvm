@@ -136,6 +136,7 @@
 		D06E32D629EEF4A700395B10 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				D05B454B29F4237F0044B89F /* CustomXibView.swift */,
 				D06E32D829EEF60800395B10 /* ViewModel */,
 			);
 			path = Presentation;
@@ -145,7 +146,6 @@
 			isa = PBXGroup;
 			children = (
 				D09467C729F1A52A004D6284 /* Button */,
-				D05B454B29F4237F0044B89F /* CustomXibView.swift */,
 			);
 			path = UiComponents;
 			sourceTree = "<group>";
