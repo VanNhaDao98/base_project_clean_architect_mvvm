@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D05B454C29F4237F0044B89F /* CustomXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05B454B29F4237F0044B89F /* CustomXibView.swift */; };
 		D06E32DA29EEF66D00395B10 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06E32D929EEF66D00395B10 /* BaseViewModel.swift */; };
 		D06E32DC29EEFF7900395B10 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06E32DB29EEFF7900395B10 /* ViewModel.swift */; };
 		D08859CF29EDAF2C0088AD84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08859CE29EDAF2C0088AD84 /* AppDelegate.swift */; };
@@ -18,6 +19,9 @@
 		D08859E629EDAF2D0088AD84 /* BaseProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08859E529EDAF2D0088AD84 /* BaseProjectTests.swift */; };
 		D08859F029EDAF2D0088AD84 /* BaseProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08859EF29EDAF2D0088AD84 /* BaseProjectUITests.swift */; };
 		D08859F229EDAF2D0088AD84 /* BaseProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08859F129EDAF2D0088AD84 /* BaseProjectUITestsLaunchTests.swift */; };
+		D09467C529F19BBC004D6284 /* ComponentsDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09467C329F19BBC004D6284 /* ComponentsDemoViewController.swift */; };
+		D09467C629F19BBC004D6284 /* ComponentsDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D09467C429F19BBC004D6284 /* ComponentsDemoViewController.xib */; };
+		D09467C929F1A9F3004D6284 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09467C829F1A9F3004D6284 /* Button.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D05B454B29F4237F0044B89F /* CustomXibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomXibView.swift; sourceTree = "<group>"; };
 		D06E32D929EEF66D00395B10 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		D06E32DB29EEFF7900395B10 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		D08859CB29EDAF2C0088AD84 /* BaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +58,9 @@
 		D08859EB29EDAF2D0088AD84 /* BaseProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D08859EF29EDAF2D0088AD84 /* BaseProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseProjectUITests.swift; sourceTree = "<group>"; };
 		D08859F129EDAF2D0088AD84 /* BaseProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D09467C329F19BBC004D6284 /* ComponentsDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentsDemoViewController.swift; sourceTree = "<group>"; };
+		D09467C429F19BBC004D6284 /* ComponentsDemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ComponentsDemoViewController.xib; sourceTree = "<group>"; };
+		D09467C829F1A9F3004D6284 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +121,7 @@
 		D06E32D429EEF46900395B10 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				D09467C229F19B89004D6284 /* ComponentsDemo */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -135,6 +144,8 @@
 		D06E32D729EEF4F300395B10 /* UiComponents */ = {
 			isa = PBXGroup;
 			children = (
+				D09467C729F1A52A004D6284 /* Button */,
+				D05B454B29F4237F0044B89F /* CustomXibView.swift */,
 			);
 			path = UiComponents;
 			sourceTree = "<group>";
@@ -203,6 +214,23 @@
 				D08859F129EDAF2D0088AD84 /* BaseProjectUITestsLaunchTests.swift */,
 			);
 			path = BaseProjectUITests;
+			sourceTree = "<group>";
+		};
+		D09467C229F19B89004D6284 /* ComponentsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D09467C329F19BBC004D6284 /* ComponentsDemoViewController.swift */,
+				D09467C429F19BBC004D6284 /* ComponentsDemoViewController.xib */,
+			);
+			path = ComponentsDemo;
+			sourceTree = "<group>";
+		};
+		D09467C729F1A52A004D6284 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				D09467C829F1A9F3004D6284 /* Button.swift */,
+			);
+			path = Button;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,6 +339,7 @@
 			files = (
 				D08859DB29EDAF2D0088AD84 /* LaunchScreen.storyboard in Resources */,
 				D08859D829EDAF2D0088AD84 /* Assets.xcassets in Resources */,
+				D09467C629F19BBC004D6284 /* ComponentsDemoViewController.xib in Resources */,
 				D08859D629EDAF2C0088AD84 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,11 +365,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D09467C929F1A9F3004D6284 /* Button.swift in Sources */,
 				D06E32DC29EEFF7900395B10 /* ViewModel.swift in Sources */,
+				D09467C529F19BBC004D6284 /* ComponentsDemoViewController.swift in Sources */,
 				D08859D329EDAF2C0088AD84 /* ViewController.swift in Sources */,
 				D06E32DA29EEF66D00395B10 /* BaseViewModel.swift in Sources */,
 				D08859CF29EDAF2C0088AD84 /* AppDelegate.swift in Sources */,
 				D08859D129EDAF2C0088AD84 /* SceneDelegate.swift in Sources */,
+				D05B454C29F4237F0044B89F /* CustomXibView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
